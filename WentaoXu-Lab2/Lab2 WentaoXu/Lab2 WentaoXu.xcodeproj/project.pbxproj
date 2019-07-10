@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68209E202155932600D93463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68209E1F2155932600D93463 /* AppDelegate.swift */; };
+		68209E222155932600D93463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68209E212155932600D93463 /* ViewController.swift */; };
+		68209E252155932600D93463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68209E232155932600D93463 /* Main.storyboard */; };
+		68209E282155932600D93463 /* Lab2_WentaoXu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68209E262155932600D93463 /* Lab2_WentaoXu.xcdatamodeld */; };
+		68209E2A2155932700D93463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68209E292155932700D93463 /* Assets.xcassets */; };
+		68209E2D2155932700D93463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68209E2B2155932700D93463 /* LaunchScreen.storyboard */; };
+		68209E382155932800D93463 /* Lab2_WentaoXuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68209E372155932800D93463 /* Lab2_WentaoXuTests.swift */; };
+		68209E432155932800D93463 /* Lab2_WentaoXuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68209E422155932800D93463 /* Lab2_WentaoXuUITests.swift */; };
+		68209E512155B64600D93463 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68209E502155B64600D93463 /* DisplayView.swift */; };
+		68209E532157330E00D93463 /* petting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68209E522157330E00D93463 /* petting.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68209E342155932800D93463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68209E142155932600D93463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68209E1B2155932600D93463;
+			remoteInfo = "Lab2 WentaoXu";
+		};
+		68209E3F2155932800D93463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68209E142155932600D93463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68209E1B2155932600D93463;
+			remoteInfo = "Lab2 WentaoXu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68209E1C2155932600D93463 /* Lab2 WentaoXu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab2 WentaoXu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68209E1F2155932600D93463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68209E212155932600D93463 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68209E242155932600D93463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68209E272155932600D93463 /* Lab2_WentaoXu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab2_WentaoXu.xcdatamodel; sourceTree = "<group>"; };
+		68209E292155932700D93463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68209E2C2155932700D93463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68209E2E2155932700D93463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68209E332155932800D93463 /* Lab2 WentaoXuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab2 WentaoXuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68209E372155932800D93463 /* Lab2_WentaoXuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab2_WentaoXuTests.swift; sourceTree = "<group>"; };
+		68209E392155932800D93463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68209E3E2155932800D93463 /* Lab2 WentaoXuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab2 WentaoXuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68209E422155932800D93463 /* Lab2_WentaoXuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab2_WentaoXuUITests.swift; sourceTree = "<group>"; };
+		68209E442155932800D93463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68209E502155B64600D93463 /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		68209E522157330E00D93463 /* petting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petting.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68209E192155932600D93463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68209E302155932800D93463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68209E3B2155932800D93463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68209E132155932600D93463 = {
+			isa = PBXGroup;
+			children = (
+				68209E1E2155932600D93463 /* Lab2 WentaoXu */,
+				68209E362155932800D93463 /* Lab2 WentaoXuTests */,
+				68209E412155932800D93463 /* Lab2 WentaoXuUITests */,
+				68209E1D2155932600D93463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68209E1D2155932600D93463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68209E1C2155932600D93463 /* Lab2 WentaoXu.app */,
+				68209E332155932800D93463 /* Lab2 WentaoXuTests.xctest */,
+				68209E3E2155932800D93463 /* Lab2 WentaoXuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68209E1E2155932600D93463 /* Lab2 WentaoXu */ = {
+			isa = PBXGroup;
+			children = (
+				68209E502155B64600D93463 /* DisplayView.swift */,
+				68209E1F2155932600D93463 /* AppDelegate.swift */,
+				68209E212155932600D93463 /* ViewController.swift */,
+				68209E232155932600D93463 /* Main.storyboard */,
+				68209E522157330E00D93463 /* petting.swift */,
+				68209E292155932700D93463 /* Assets.xcassets */,
+				68209E2B2155932700D93463 /* LaunchScreen.storyboard */,
+				68209E2E2155932700D93463 /* Info.plist */,
+				68209E262155932600D93463 /* Lab2_WentaoXu.xcdatamodeld */,
+			);
+			path = "Lab2 WentaoXu";
+			sourceTree = "<group>";
+		};
+		68209E362155932800D93463 /* Lab2 WentaoXuTests */ = {
+			isa = PBXGroup;
+			children = (
+				68209E372155932800D93463 /* Lab2_WentaoXuTests.swift */,
+				68209E392155932800D93463 /* Info.plist */,
+			);
+			path = "Lab2 WentaoXuTests";
+			sourceTree = "<group>";
+		};
+		68209E412155932800D93463 /* Lab2 WentaoXuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68209E422155932800D93463 /* Lab2_WentaoXuUITests.swift */,
+				68209E442155932800D93463 /* Info.plist */,
+			);
+			path = "Lab2 WentaoXuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68209E1B2155932600D93463 /* Lab2 WentaoXu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68209E472155932800D93463 /* Build configuration list for PBXNativeTarget "Lab2 WentaoXu" */;
+			buildPhases = (
+				68209E182155932600D93463 /* Sources */,
+				68209E192155932600D93463 /* Frameworks */,
+				68209E1A2155932600D93463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab2 WentaoXu";
+			productName = "Lab2 WentaoXu";
+			productReference = 68209E1C2155932600D93463 /* Lab2 WentaoXu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68209E322155932800D93463 /* Lab2 WentaoXuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68209E4A2155932800D93463 /* Build configuration list for PBXNativeTarget "Lab2 WentaoXuTests" */;
+			buildPhases = (
+				68209E2F2155932800D93463 /* Sources */,
+				68209E302155932800D93463 /* Frameworks */,
+				68209E312155932800D93463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68209E352155932800D93463 /* PBXTargetDependency */,
+			);
+			name = "Lab2 WentaoXuTests";
+			productName = "Lab2 WentaoXuTests";
+			productReference = 68209E332155932800D93463 /* Lab2 WentaoXuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68209E3D2155932800D93463 /* Lab2 WentaoXuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68209E4D2155932800D93463 /* Build configuration list for PBXNativeTarget "Lab2 WentaoXuUITests" */;
+			buildPhases = (
+				68209E3A2155932800D93463 /* Sources */,
+				68209E3B2155932800D93463 /* Frameworks */,
+				68209E3C2155932800D93463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68209E402155932800D93463 /* PBXTargetDependency */,
+			);
+			name = "Lab2 WentaoXuUITests";
+			productName = "Lab2 WentaoXuUITests";
+			productReference = 68209E3E2155932800D93463 /* Lab2 WentaoXuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68209E142155932600D93463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = WentaoXu;
+				TargetAttributes = {
+					68209E1B2155932600D93463 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					68209E322155932800D93463 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 68209E1B2155932600D93463;
+					};
+					68209E3D2155932800D93463 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 68209E1B2155932600D93463;
+					};
+				};
+			};
+			buildConfigurationList = 68209E172155932600D93463 /* Build configuration list for PBXProject "Lab2 WentaoXu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68209E132155932600D93463;
+			productRefGroup = 68209E1D2155932600D93463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68209E1B2155932600D93463 /* Lab2 WentaoXu */,
+				68209E322155932800D93463 /* Lab2 WentaoXuTests */,
+				68209E3D2155932800D93463 /* Lab2 WentaoXuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68209E1A2155932600D93463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68209E2D2155932700D93463 /* LaunchScreen.storyboard in Resources */,
+				68209E2A2155932700D93463 /* Assets.xcassets in Resources */,
+				68209E252155932600D93463 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68209E312155932800D93463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68209E3C2155932800D93463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68209E182155932600D93463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68209E222155932600D93463 /* ViewController.swift in Sources */,
+				68209E512155B64600D93463 /* DisplayView.swift in Sources */,
+				68209E532157330E00D93463 /* petting.swift in Sources */,
+				68209E282155932600D93463 /* Lab2_WentaoXu.xcdatamodeld in Sources */,
+				68209E202155932600D93463 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68209E2F2155932800D93463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68209E382155932800D93463 /* Lab2_WentaoXuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68209E3A2155932800D93463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68209E432155932800D93463 /* Lab2_WentaoXuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68209E352155932800D93463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68209E1B2155932600D93463 /* Lab2 WentaoXu */;
+			targetProxy = 68209E342155932800D93463 /* PBXContainerItemProxy */;
+		};
+		68209E402155932800D93463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68209E1B2155932600D93463 /* Lab2 WentaoXu */;
+			targetProxy = 68209E3F2155932800D93463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68209E232155932600D93463 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68209E242155932600D93463 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68209E2B2155932700D93463 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68209E2C2155932700D93463 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68209E452155932800D93463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68209E462155932800D93463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68209E482155932800D93463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab2 WentaoXu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.Lab2-WentaoXu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68209E492155932800D93463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab2 WentaoXu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.Lab2-WentaoXu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68209E4B2155932800D93463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab2 WentaoXuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.Lab2-WentaoXuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab2 WentaoXu.app/Lab2 WentaoXu";
+			};
+			name = Debug;
+		};
+		68209E4C2155932800D93463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab2 WentaoXuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.Lab2-WentaoXuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab2 WentaoXu.app/Lab2 WentaoXu";
+			};
+			name = Release;
+		};
+		68209E4E2155932800D93463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab2 WentaoXuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.Lab2-WentaoXuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab2 WentaoXu";
+			};
+			name = Debug;
+		};
+		68209E4F2155932800D93463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab2 WentaoXuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.Lab2-WentaoXuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab2 WentaoXu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68209E172155932600D93463 /* Build configuration list for PBXProject "Lab2 WentaoXu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68209E452155932800D93463 /* Debug */,
+				68209E462155932800D93463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68209E472155932800D93463 /* Build configuration list for PBXNativeTarget "Lab2 WentaoXu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68209E482155932800D93463 /* Debug */,
+				68209E492155932800D93463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68209E4A2155932800D93463 /* Build configuration list for PBXNativeTarget "Lab2 WentaoXuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68209E4B2155932800D93463 /* Debug */,
+				68209E4C2155932800D93463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68209E4D2155932800D93463 /* Build configuration list for PBXNativeTarget "Lab2 WentaoXuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68209E4E2155932800D93463 /* Debug */,
+				68209E4F2155932800D93463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68209E262155932600D93463 /* Lab2_WentaoXu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68209E272155932600D93463 /* Lab2_WentaoXu.xcdatamodel */,
+			);
+			currentVersion = 68209E272155932600D93463 /* Lab2_WentaoXu.xcdatamodel */;
+			path = Lab2_WentaoXu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68209E142155932600D93463 /* Project object */;
+}
